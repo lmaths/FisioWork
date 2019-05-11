@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "711870547492",
+    "firebase_url": "https://fisiowork-c9802.firebaseio.com",
+    "project_id": "fisiowork-c9802",
+    "storage_bucket": "fisiowork-c9802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711870547492:android:778b5e8d7f0a2b8e",
+        "android_client_info": {
+          "package_name": "com.rightside.fisiowork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711870547492-7q679c16lshh0t3ptaaam5llgqe8r4ht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rightside.fisiowork",
+            "certificate_hash": "3f0f62c49970da0c9d188151256c395f2cfa8b13"
+          }
+        },
+        {
+          "client_id": "711870547492-6v4ed4t6do6m6tcmqn4vt579u624qfsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt2Q2R2ilAOkC5zqhzpq6tDsl4MXzPK_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711870547492-6v4ed4t6do6m6tcmqn4vt579u624qfsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
