@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CadastroActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <EditText
+        android:id="@+id/editCadastroNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="nome"/>
+
+    <EditText
+        android:id="@+id/editCadastroEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/editCadastroSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="senha"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Cadastrar"/>
+</LinearLayout>
