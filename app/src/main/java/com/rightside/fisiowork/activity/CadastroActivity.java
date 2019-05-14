@@ -32,7 +32,7 @@ public class CadastroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro);
 
         inicializarComponentes();
-
+        startActivity(new Intent(getApplicationContext(), DateActivity.class));
 
         //metodo on click do botão
         btnCadastrar.setOnClickListener(new View.OnClickListener() {
@@ -99,7 +99,7 @@ public class CadastroActivity extends AppCompatActivity {
 
                                 Toast.makeText(CadastroActivity.this, "Cadastro realizado", Toast.LENGTH_SHORT).show();
 
-                                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                                startActivity(new Intent(getApplicationContext(), DateActivity.class));
                                 finish();
                             } catch (Exception e) {
                                 e.printStackTrace();
