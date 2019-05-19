@@ -1,7 +1,9 @@
-package com.rightside.fisiowork;
+package com.rightside.fisiowork.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.rightside.fisiowork.R;
 
 public class MainActivity extends AppCompatActivity {
 
